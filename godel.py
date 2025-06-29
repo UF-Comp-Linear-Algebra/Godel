@@ -10,7 +10,7 @@ from scantron import Key, Scantron, Grader
 def cli():
     pass
 
-
+# TODO name argument
 @cli.command()
 @click.argument('file', type=click.File('r'), required=True)
 # output file is optional and defaults to stdout if not provided. can be provided with -o flag or --output flag and will overwrite the file if it already exists
